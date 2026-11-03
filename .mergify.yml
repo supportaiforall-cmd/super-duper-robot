@@ -3,3 +3,7 @@ merge_queue:
 scopes:
   source:
     files: {}
+queue_rules:
+  - name: Routing
+    merge_conditions:
+      - queue-position = 0
