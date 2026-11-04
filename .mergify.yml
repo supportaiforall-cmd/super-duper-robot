@@ -1,4 +1,6 @@
 merge_queue:
+  skip_intermediate_results: true
+  reset_on_external_merge: always
   max_parallel_checks: 3
 scopes:
   source:
