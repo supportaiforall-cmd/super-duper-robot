@@ -3,6 +3,7 @@ merge_queue:
   skip_intermediate_results: true
   reset_on_external_merge: always
   mode: isolated
+  status_comments: outcomes
 scopes:
   source:
     ? manual
